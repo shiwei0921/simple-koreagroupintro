@@ -1,0 +1,67 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+h1 {
+    font-size: 36px;
+}
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 320px; /* 修改为你希望的宽度 */
+    margin-left: 450px; /* 调整这个值以左移 */
+}
+.card {
+    width: 100px; /* 卡片的宽度 */
+    height: 100px; /* 卡片的高度 */
+    padding: 20px;
+    border: 2px solid #333;
+    cursor: pointer;
+    font-size: 60px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card.flipped {
+    background-color: #fff;
+    transform: rotateY(180deg);
+}
+.hidden {
+    visibility: hidden;
+}
+
+button {
+    margin-top: 1rem;
+}
+
+/* 设置水平排列的菜单 */
+.menu {
+    list-style-type: none; /* 去掉默认的列表符号 */
+    padding: 1.5rem; /* 去掉默认的填充 */
+    margin: 1.5rem; /* 去掉默认的外边距 */
+    font-size: 1.25rem;
+}
+
+.menu li {
+    display: inline; /* 将每个li元素变成水平排列 */
+    margin-right: 15px; /* 设置元素之间的间距 */
+}
+
+ul li a {
+    font-size: 1.55rem;
+    color: aqua;
+    text-decoration: none;
+    padding: 1.25rem;
+}
+
+
