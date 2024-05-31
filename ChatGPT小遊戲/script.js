@@ -3,14 +3,14 @@ let flippedCards = [];
 let matchedCards = 0;
 
 const symbols = [
-    "images/johnny.jpg",
-    "images/haechan.jpg",
-    "images/dongyoung.jpg",
-    "images/qiankun.jpg",
-    "images/taeil.png",
-    "images/yuta.jpg",
-    "images/chaiya.jpg",
-    "images/taeyoung.jpg"
+    "images/115585_0.jpg",
+    "images/115586_0.jpg",
+    "images/115587_0.jpg",
+    "images/115588_0.jpg",
+    "images/115589_0.jpg",
+    "images/115590_0.jpg",
+    "images/115591_0.jpg",
+    "images/115592_0.jpg"
 ];
 
 function createCards() {
