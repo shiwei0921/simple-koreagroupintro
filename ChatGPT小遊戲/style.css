@@ -17,7 +17,7 @@ h1 {
 .card {
     width: 100px; /* 卡片的宽度 */
     height: 100px; /* 卡片的高度 */
-    padding: 20px;
+/*     padding: 20px; */
     border: 2px solid #333;
     cursor: pointer;
     font-size: 60px;
@@ -30,7 +30,8 @@ h1 {
 
 .card img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
 }
 .card.flipped {
     background-color: #fff;
