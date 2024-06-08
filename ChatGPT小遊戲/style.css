@@ -1,8 +1,8 @@
-
 body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
     text-align: center;
-    margin-top: 50px;
 }
 h1 {
     font-size: 36px;
@@ -12,12 +12,12 @@ h1 {
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     width: 320px; /* 修改为你希望的宽度 */
-    margin-left: 450px; /* 调整这个值以左移 */
+    margin-left: 35%; /* 调整这个值以左移 */
 }
 .card {
     width: 100px; /* 卡片的宽度 */
     height: 100px; /* 卡片的高度 */
-/*     padding: 20px; */
+    /* padding: 20px; */
     border: 2px solid #333;
     cursor: pointer;
     font-size: 60px;
@@ -42,7 +42,8 @@ h1 {
 }
 
 button {
-    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-left: -5%;
 }
 
 /* 设置水平排列的菜单 */
@@ -63,6 +64,22 @@ ul li a {
     color: aqua;
     text-decoration: none;
     padding: 1.25rem;
+}
+
+/* 響應式設計 */
+@media screen and (max-width:950px) {
+
+    .menu {
+        margin-top: -5%;
+    }
+    ul li a {
+        display: block;
+        padding: 0.2rem;
+}   
+    #game-board {
+        margin-left: 10%;
+        margin-top: 8%;
+    }
 }
 
 
